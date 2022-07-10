@@ -69,7 +69,7 @@ function App() {
   }, []);
   return (
     <div>
-      <h1>coins {loading ? "" : `({coins.length})`}</h1>
+      <h1>coins {loading ? "" : `(${coins.length})`}</h1>
       {loading ? (
         <strong>Loading</strong>
       ) : (
